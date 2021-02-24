@@ -3,27 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        
-        <link href="https://fonts.googleapis.com/css?family=" rel="stylesheet">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <!--  <link rel="shortcut icon" type="image/png" href="img/icon.png">  -->
-        
-        <title>Title</title>
+        <title>Harry W</title>
     </head>
-    <body class="container">
 
+    <body>
         <header class="header">
-            
+            <div class="header__home">
+                <h1 class="header__home--primary">Harry Wijnschenk</h1>
+                <ol>
+                    <li>Software Engineering</li>
+                    <li>Designer</li>
+                </ol>
+                <button class="header__home--about">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">About Me</span>
+                </button>
+            </div>
         </header>
-        
-        <main>
-            
-        </main>
-
-        <footer class="footer">
-            
-        </footer>
-        
     </body>
 </html>

@@ -1,6 +1,6 @@
 /*
 
-ORDER: Base + typography > general layout + grid > page layout > components
+ORDER: Base + typography > pages > general layout + grid > page layout > components
 
 1em = 16px
 1rem = 10px
@@ -24,7 +24,6 @@ body {
   line-height: 1.7;
   color: #777; 
 }
-
 
 .heading-primary {
   color: #fff;
@@ -50,6 +49,27 @@ body {
   clear: both; 
 }
 
+/* Home page */
+
+.header__home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/hero.jpg);
+  height: 100vh;
+  width: auto;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header__home--primary {
+  color: #eee;
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 40vh;
+}
 
 /* Utilities */
 .u-center-text { text-align: center !important; }
@@ -103,11 +123,11 @@ body {
 
 /* Responsive Design */
 
-@media all and (max-width: 37.5em) { /* Phone - 600px */
+@media all and (min-width: 37.5em) { /* Portrait tablets - 600px+ */
 
 }
 
-@media all and (max-width: 56.25em) { /* Portrait tablets - 900px */
+@media all and (min-width: 56.25em) { /* Landscape tablets - 900px+ */
   .u-margin-bottom-large {
     margin-bottom: 5rem !important; 
   } 
@@ -116,10 +136,11 @@ body {
   } 
 }
 
-@media all and (max-width: 75em) { /* Landscape tablets - 1200px */
+@media all and (min-width: 75em) { /* Desktops - 1200px+ */
   
 }
 
 @media all and (min-width: 112.5em) { /* Big desktops - 1800px+ */
   
 }
+
