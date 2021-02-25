@@ -19,7 +19,7 @@ html { font-size: 62.5%; /* 1rem = 10px */ }
 body { 
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 400;
   line-height: 1.7;
   color: #777; 
@@ -53,125 +53,58 @@ body {
 
 .header__home {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(./images/hero.jpg);
-  height: 100vh;
-  width: auto;
-
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   font-family: 'Montserrat', sans-serif;
-}
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+} 
 
 .header__home--primary {
   color: #eee;
-  font-size: 9vw;
-  font-weight: 700;
-  text-align: center;
-  padding-top: 40vh;
-  padding-bottom: 0;
+  font-size: 3.5rem;
+  font-weight: 600;
 }
 
 .header__home--list {
-  list-style-type: none;
-  font-size: 4vw;
   color: #bbb;
-  text-align: center;
-  padding: 0;
-  margin: 0;
+  font-size: 2rem;
+  list-style-type: none;
+  margin-bottom: 1.5rem;
 }
 
 .header__home--item {
   display: inline;
 }
 
-.button__container {
-  margin-top: 2rem;
-  display: flex;
-}
+/* About me button */
 
-button.home__button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
+.header__home--button:link,
+.header__home--button:visited {
+  color: white;
   text-decoration: none;
-  background: transparent;
-  margin: 0 auto;
-  padding: 0;
-  font-size: inherit;
-  font-family: 'mukta';
-  width: 12rem;
-  height: auto;
-}
-
-.home__button--circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 3rem;
-  height: 3rem;
-  background: #282936;
-  border-radius: 1.625rem;
-}
-
-.icon {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-
-.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.625rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-.arrow::before {
-  position: absolute;
-  content: "";
-  top: -0.25rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid #fff;
-  border-right: 0.125rem solid #fff;
-  transform: rotate(45deg);
-}
-
-span.home__button--text {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.75rem 0;
-  margin: 0 0 0 1.85rem;
-  color: #fff;
-  font-weight: 700;
-  line-height: 1.6;
-  text-align: center;
+  border: 3px solid rgb(255, 255, 255, 0.8);
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  font-family: "Mukta", sans-serif;
   text-transform: uppercase;
+  display: inline-block;
+  
+  box-shadow: inset 0 0 0 0 #fff;
+  transition: ease-out 0.5s;
 }
 
-.home__button:hover .home__button--circle {
-  width: 100%;
+.header__home--button:hover {
+  box-shadow: inset 0 0 0 5rem #fff;
+  color: #000;
 }
-
-.home__button:hover .icon.arrow {
-  background: #fff;
-  transform: translate(1rem, 0);
-}
-
 
 
 /* Utilities */
@@ -190,6 +123,11 @@ span.home__button--text {
 .container .col-2-of-4 { width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
 .container .col-3-of-4 { width: calc(3 * ((100% - 3 * 6rem) / 4) + 6rem * 2); }
 
+/* .center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
 
 
 /* Animations */
@@ -227,10 +165,11 @@ span.home__button--text {
 /* Responsive Design */
 
 @media all and (min-width: 37.5em) { /* Portrait tablets - 600px+ */
-
+  html { font-size: 75%; /* 1rem = 12px */ }
 }
 
 @media all and (min-width: 56.25em) { /* Landscape tablets - 900px+ */
+  html { font-size: 87.5%; /* 1rem = 14px */ }
   .u-margin-bottom-large {
     margin-bottom: 5rem !important; 
   } 
@@ -240,10 +179,10 @@ span.home__button--text {
 }
 
 @media all and (min-width: 75em) { /* Desktops - 1200px+ */
-  
+  html { font-size: 100%; /* 1rem = 16px */ }
 }
 
 @media all and (min-width: 112.5em) { /* Big desktops - 1800px+ */
-  
+  html { font-size: 125%; /* 1rem = 20px */ }
 }
 
