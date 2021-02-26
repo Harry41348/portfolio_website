@@ -49,6 +49,76 @@ body {
   clear: both; 
 }
 
+/* Nav bar */
+
+.header__menu {
+  position: fixed;
+  z-index: 5;
+  margin: 2rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.header__menu--bar {
+  width: 3.5rem;
+  height: .5rem;
+  background-color: #000;
+  margin: .6rem 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-.9rem, .6rem) ;
+  transform: rotate(-45deg) translate(-.9rem, .6rem) ;
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-.8rem, -.8rem) ;
+  transform: rotate(45deg) translate(-.8rem, -.8rem) ;
+}
+
+.header__menu--overlay {
+  height: 100vh;
+  width: 100vw;
+  background: #ec6451;
+  z-index: 2;
+  visibility: hidden;
+  position: fixed;
+}
+
+.header__menu--overlay ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100vh;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.header__menu--overlay ul li {
+  padding: 1rem;
+}
+
+.header__menu--overlay ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+.header__menu--overlay ul li a:hover {
+  color: #333332;
+}
+
+.header__menu--active {
+  visibility: visible;
+}
+
 /* Home page */
 
 .header__home {
