@@ -13,10 +13,10 @@
         <header>
             <div class="header__home">
                 <h1 class="header__home--primary">Harry Wijnschenk</h1>
-                <ul class="header__home--list">
-                    <li class="header__home--item">Software Developer</li>
-                    <span class="header__home--seperator">/</span>
-                    <li class="header__home--item">Student</li>
+                <ul class="header__list">
+                    <li class="header__item">Software Developer</li>
+                    <span class="header__seperator">/</span>
+                    <li class="header__item">Student</li>
                 </ul>
                 <div class="center">
                     <a href="pages/about.php" class="header__home--button">About me</a>
