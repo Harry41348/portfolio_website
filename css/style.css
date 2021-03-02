@@ -23,7 +23,7 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777; 
-  background-color: #f2f2f2;
+  background-color: #eee;
 }
 
 .heading-primary {
@@ -38,32 +38,31 @@ body {
   text-align: center;
   font-family: "Montserrat", cursive;
   font-weight: 600;
-  text-shadow: 3px 3px 2px rgba(0, 0, 0, .5);
-  padding: 2rem 0 1rem 0;
+  padding: 2rem 0 0 0;
 }
 
 .paragraph { 
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   font-family: "Alegreya Sans", cursive;
   font-weight: 400;
-  padding: 0 1rem .3rem 1rem;
+  padding: .5rem 2rem;
   text-align: center;
-}
-
-header {
-  box-shadow: 5px 5px 15px 4px rgba(0,0,0,0.6);
 }
 
 .in-text-link:link,
 .in-text-link:visited {
+  display: inline-block;
   color: #fff;
-  text-decoration: none;
+  background-color: #2c3e50;
   font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: all .3s ease-in-out;
 }
 
 .in-text-link:hover {
-  display: inline-block
-  transform: scale(2);
+  transform: rotateZ(-10deg) scale(1.5);
+  box-shadow: 0px 0px 15px 5px rgba(18,26,33,0.8)
 }
 
 .line-space {
@@ -127,7 +126,7 @@ header {
 .header__menu--overlay {
   height: 100vh;
   width: 100vw;
-  background: #e74c3c;
+  background: #2c3e50;
   z-index: 2;
   visibility: hidden;
   position: fixed;
@@ -216,6 +215,7 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  box-shadow: 0 0 1rem .4rem rgba(0,0,0,0.2);
   position: relative;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
@@ -234,8 +234,8 @@ header {
   font-size: 2rem;
 }
 
-.about__who {
-  background-color: #e74c3c;
+.about__me {
+  background-color: #2c3e50;
   color: #fff;
   padding-bottom: 3rem;
 }
@@ -249,6 +249,8 @@ header {
 .u-margin-bottom-small { margin-bottom: 1.5rem !important; }
 .u-margin-top-big { margin-top: 8rem !important; }
 .u-margin-top-large { margin-top: 10rem !important; }
+
+.text-shadow { text-shadow: 4px 4px 5px rgba(0, 0, 0, 1); }
 
 .container .col-1-of-2 { width: calc((100% - 6rem) / 2); }
 .container .col-1-of-3 { width: calc((100% - 2 * 6rem) / 3); }

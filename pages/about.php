@@ -13,16 +13,29 @@
 </header>
 
 <main class="about">
-  <section class="about__who">
-    <h2 class="sub-heading">Who am I?</h2>
-    <p class="paragraph">Hi, I'm Harry. I have a huge passion for developing high quality websites. Not only 
-      do I love making websites, but I am a huge fan of developing software and am working hard towards a 
-      career in Software Engineering.</p>
-    <p class="paragraph">So far I have completed work for personal projects, family members and friends, however, I know this is 
-      only the start. I plan to do much more work as part of a job and freelancing. Make sure to <a href="contact.php" class="in-text-link">
-      Contact</a> me for the best deals whilst I am still trying to gain valuable experience.</p>
-    <p class="paragraph">As a person, I work effectively whether as part of a team, or as an individual. I am a passionate 
-      problem solver, motivated and hard-working person with a desire to achieve the best out of life. </p>
+  <section class="about__me">
+    <h2 class="sub-heading text-shadow">Hi, I'm Harry!</h2>
+    <p class="paragraph">I am a passionate programmer building a career in Software Engineering, whilst designing 
+      and developing high quality websites and web applications from the ground up. You can see my most recent 
+      project <a href="projects.php" class="in-text-link">here</a>!</p>
+    <p class="paragraph">I have developed projects for myself, friends, family and am branching out to anyone 
+      who needs websites. I will be developing many more projects, both at a job and freelancing. Make sure to 
+      <a href="contact.php" class="in-text-link">Contact</a> me for the best deals whilst I am gaining valuable 
+      experience.</p>
+    <p class="paragraph">As a person, I work effectively whether as part of a team, or as an individual. I am a 
+      natural problem solver, motivated and hard-working person with a desire to achieve the best out of life.</p>
+  </section>
+  <section class="about__experience">
+    <h2 class="sub-heading">Experience</h2>
+  </section>
+  <section class="about__skills">
+    <h2 class="sub-heading">Skills</h2>
+  </section>
+  <section class="about__education">
+    <h2 class="sub-heading">Education</h2>
+  </section>
+  <section class="about__hobbies">
+    <h2 class="sub-heading">Hobbies</h2>
   </section>
 </main>
 
