@@ -80,6 +80,10 @@ body {
   clear: both; 
 }
 
+section {
+  box-shadow: 0 0 1rem .4rem rgba(0,0,0,0.2);
+}
+
 .header__list {
   color: #bbb;
   font-size: 2rem;
@@ -234,12 +238,63 @@ body {
   font-size: 2rem;
 }
 
+/* About me */
+
 .about__me {
   background-color: #2c3e50;
   color: #fff;
   padding-bottom: 3rem;
 }
 
+/* Experience */
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.experience:not(:last-child) {
+  margin-bottom: 2rem;
+}
+
+.experience__title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.4rem;
+}
+
+.experience__title--date {
+  color: #999;
+  margin-left: 0.5rem;
+}
+
+.experience__description {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+/* About skills */
+
+.about__skills {
+  background-color: #2c3e50;
+}
+
+
+/* About Education */
+
+
+
+/* About Hobbies */
+
+.about__hobbies {
+  background-color: #2c3e50;
+}
 
 /* Utilities */
 .u-center-text { text-align: center !important; }
@@ -264,6 +319,27 @@ body {
   justify-content: center;
   align-items: center;
 } */
+
+.tag {
+  color: #fff;
+  margin: 0 0.2rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 2rem;
+  transition: all .3s ease;
+  box-shadow: 1px 1px 5px 3px rgba(0,0,0,0.2);
+}
+
+.tag:hover { opacity: 50%; }
+
+.tag__blue { background-color: rgba(41, 128, 185, 80%); }
+
+.tag__orange { background-color: rgba(230, 126, 34, 80%); }
+
+.tag__purple { background-color: rgba(155, 89, 182, 80%); }
+
+.tag__green { background-color: rgba(39, 174, 96, 80%); }
+
+.tag__grey { background-color: rgba(50, 50, 50, 80%); }
 
 
 /* Animations */
