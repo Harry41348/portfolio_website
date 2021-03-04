@@ -13,6 +13,7 @@
 </header>
 
 <main class="about">
+  <!-- About -->
   <section class="about__me">
     <h2 class="sub-heading text-shadow">Hi, I'm Harry!</h2>
     <p class="paragraph">I am a passionate programmer building a career in Software Engineering, whilst designing 
@@ -26,8 +27,33 @@
       natural problem solver, motivated and hard-working person with a desire to achieve the best out of life.</p>
   </section>
 
+  <!-- Skills -->
+  <section class="about__skills">
+    <h2 class="sub-heading">Skills</h2>
+    <p class="paragraph">I have dipped in and out of many different languages and technologies. I have enjoyed it all and although I love learning new things, 
+    I have stuck with a few for my Web Development, which are shown below.</p>
+    <h3 class="skills__title">Front-end</h3>
+    <div class="skills__icons">
+      <img src="../imgs/html.png" alt="HTML" class="skills__icons--img">
+      <img src="../imgs/css.png" alt="CSS" class="skills__icons--img">
+    </div>
+    <h3 class="skills__title">Back-end</h3>
+    <div class="skills__icons">
+      <img src="../imgs/django.png" alt="Django" class="skills__icons--img">
+      <!-- <img src="../imgs/php.png" alt="PHP" class="skills__icons--img">
+      <img src="../imgs/cplusplus.png" alt="C++" class="skills__icons--img"> -->
+    </div>
+    <h3 class="skills__title">Other technologies</h3>
+    <div class="skills__icons">
+      <img src="../imgs/mysql.png" alt="MySQL" class="skills__icons--img">
+    </div>
+    <p class="paragraph">This is just what I have decided to go with for my Full-Stack Development, and is in no way a comprehensive list. I am always up for 
+    learning new stuff! Other languages and technologies I am familiar with include: PHP, Laravel, C#, C++, Java and JavaScript.</p>
+  </section>
+
+  <!-- Experience -->
   <section class="about__experience">
-    <h2 class="sub-heading">Experience</h2>
+    <h2 class="sub-heading text-shadow pb-tiny">Experience</h2>
 
     <!-- Vava Project -->
     <div class="experience">
@@ -84,11 +110,19 @@
     </div>
   </section>
   
-  <section class="about__skills">
-    <h2 class="sub-heading">Skills</h2>
-  </section>
+  <!-- Education -->
   <section class="about__education">
     <h2 class="sub-heading">Education</h2>
+    <!-- <img src="../imgs/book.png" alt="Self education logo" class="education__img"> -->
+    <div class="education__container">
+      <p class="paragraph">Self education - <span class="text-dark">I enjoy</span></p>
+    </div>
+    <div class="education__container">
+      <p class="paragraph">University of huddersfield - </p>
+    </div>
+    <div class="education__container">
+      <p class="paragraph">Cambridge regional college - </p>
+    </div>
   </section>
   <section class="about__hobbies">
     <h2 class="sub-heading">Hobbies</h2>
