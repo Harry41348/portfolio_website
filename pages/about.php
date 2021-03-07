@@ -115,18 +115,46 @@
     <h2 class="sub-heading">Education</h2>
     <!-- <img src="../imgs/book.png" alt="Self education logo" class="education__img"> -->
     <div class="education__container">
-      <p class="paragraph">Self education - <span class="text-dark">I enjoy</span></p>
+      <p class="paragraph">Self education - <span class="text-dark">A lot of my free time is devoted to studying and improving on myself, especially with a pandemic 
+      going on I feel my time is best spent improving. I have learnt web technologies by myself using online courses, tutorials and experimenting. I love what I do 
+      which helps me to stay motivated and persistent with times like this.</span></p>
     </div>
     <div class="education__container">
-      <p class="paragraph">University of huddersfield - </p>
+      <p class="paragraph">University of huddersfield - <span class="text-dark">Uni has developed many of my skills for both software engineering and in general. I 
+      have changed in many ways as a person for the better. I have had a great experience where possible, and gained a great arsenal of programming relating skills, 
+      including problem solving with algorithms and data structures, working as a team to develop software, and much more.</span></p>
     </div>
     <div class="education__container">
-      <p class="paragraph">Cambridge regional college - </p>
+      <p class="paragraph">Cambridge regional college - <span class="text-dark">My college experience was not the greatest, but introduced me to a range of computing 
+      topics. This lead me to choosing a career in Software Engineering, and how to work efficiently as I had to teach myself many of the subjects.</span></p>
     </div>
+    <p class="paragraph text-dark">Overall my education has given be an amazing passion and strong mentality towards achieving the best that I can out of my chosen 
+    field. I always aim to improve and push myself beyond my limits.</p>
   </section>
-  <section class="about__hobbies">
+
+  <!-- Hobbes -->
+  <!-- <section class="about__hobbies">
     <h2 class="sub-heading">Hobbies</h2>
-  </section>
+    <div class="hobbies__container">
+      <h3 class="hobbies__container--hobby">Snowboarding</h3>
+      <p class="paragraph hobbies__container--description">Travelling at high speeds, fantastic views, and a great challenge, snowboarding is an amazing Hobby.</p>
+    </div>
+    <div class="hobbies__container">
+      <h3 class="hobbies__container--hobby">Cooking</h3>
+      <p class="paragraph hobbies__container--description">Being vegetarian, it is a struggle to find good food. So, instead I make it! Great for myself and others.</p>
+    </div>
+    <div class="hobbies__container">
+      <h3 class="hobbies__container--hobby">Socialising</h3>
+      <p class="paragraph hobbies__container--description">Socialising has helped me gain confidence, make friends and to be an all round better person.</p>
+    </div>
+    <div class="hobbies__container">
+      <h3 class="hobbies__container--hobby">Coding</h3>
+      <p class="paragraph hobbies__container--description">And of course, coding. If it isn't apparant already, I love to code. Solving challenging problems 
+      gives a great amount of satisfaction.</p>
+    </div>
+  </section> -->
+  <div class="push"></div>
+  </div>
 </main>
 
 <?php
