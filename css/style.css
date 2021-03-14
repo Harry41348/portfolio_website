@@ -23,13 +23,18 @@ body {
   font-weight: 400;
   line-height: 1.7;
   color: #777; 
-  background-color: #ddd;
+  background-color: #eee;
 }
 
 .container {
   max-width: 100%;
   margin: 0 auto;
-  box-shadow: 0 0 .6rem .2rem rgba(0,0,0,0.2);
+}
+
+.container::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .heading-primary {
@@ -76,15 +81,18 @@ body {
   padding-bottom: 1rem;
 }
 
-.container::after {
-  content: "";
-  display: table;
-  clear: both; 
-}
 
 section {
-  
   padding-bottom: 3rem;
+}
+
+section:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  bottom: 1px;
+  z-index: -1;
+  transform: scale(.9);
 }
 
 .header__list {
@@ -111,7 +119,7 @@ section {
 .header__menu--bar {
   width: 3.5rem;
   height: .5rem;
-  background-color: #000;
+  background-color: #222;
   margin: .6rem 0;
   transition: 0.4s;
 }
@@ -136,7 +144,10 @@ section {
   background: #2c3e50;
   z-index: 2;
   visibility: hidden;
+  opacity: 0;
   position: fixed;
+
+  transition: all .2s ease;
 }
 
 .header__menu--overlay ul {
@@ -159,14 +170,12 @@ section {
   text-decoration: none;
   font-size: 2rem;
   font-family: "Montserrat", sans-serif;
+
+  transition: color .3s ease-in-out;
 }
 
 .header__menu--overlay ul li a:hover {
-  color: #333332;
-}
-
-.header__menu--active {
-  visibility: visible;
+  color: #222;
 }
 
 /* Footer */
@@ -516,5 +525,5 @@ i {
 }
 
 @media all and (min-width: 125em) { /* Big desktops - 1800px+ */
-  html { font-size: 125%; /* 1rem = 20px */ }
+  .container { max-width: 87.5rem; }
 }

@@ -20,7 +20,7 @@
                     <li class="header__item">Student</li>
                 </ul>
                 <div class="center">
-                    <a href="pages/about.php" class="header__home--button">About me</a>
+                    <a href="about.php" class="header__home--button">About me</a>
                 </div>
             </div>  
         </header>
