@@ -5,7 +5,7 @@
   <div class="header__about">
     <h1 class="heading-primary"><a href="../index.php" class="about__heading--back">Harry Wijnschenk</a></h1>
     <ul class="header__list">
-      <li class="header__item">Software Developer</li>
+      <li class="header__item">Software Engineer</li>
       <span class="header__seperator">/</span>
       <li class="header__item">Student</li>
     </ul>
@@ -15,16 +15,18 @@
 <main class="about">
   <!-- About -->
   <section class="about__me">
-    <h2 class="sub-heading text-shadow">Hi, I'm Harry!</h2>
+    <h2 class="about__me--text text-shadow">Hi, I'm Harry!</h2>
     <p class="paragraph">I am a passionate programmer building a career in Software Engineering, whilst designing 
       and developing high quality websites and web applications from the ground up. You can see my most recent 
-      project <a href="projects.php" class="in-text-link">here</a>!</p>
-    <p class="paragraph">I have developed projects for myself, friends, family and am branching out to anyone 
-      who needs websites. I will be developing many more projects, both at a job and freelancing. Make sure to 
-      <a href="contact.php" class="in-text-link">Contact</a> me for the best deals whilst I am gaining valuable 
-      experience.</p>
-    <p class="paragraph">As a person, I work effectively whether as part of a team, or as an individual. I am a 
-      natural problem solver, motivated and hard-working person with a desire to achieve the best out of life.</p>
+      project <a href="#projects" class="in-text-link">here</a>!</p>
+    <p class="paragraph">I have developed projects for myself, friends, family and am willing to work for anyone 
+      who need websites designed and developed. I will be developing many more projects, at jobs, freelancing and 
+      for fun. Make sure to <a href="#footer" class="in-text-link">Contact</a> me for the best deals whilst I 
+      am gaining valuable experience.</p>
+    <p class="paragraph">If I had to describe myself with 3 words, I would say I am Approachable, Creative and a 
+      problem-solver. I work effectively whether as part of a team, or as an individual. I am motivated by many 
+      parts of programming with its creative freedom, the opportunity to make a difference to people and the 
+      feeling of overcoming many challenges.</p>
   </section>
 
   <!-- Skills -->
@@ -47,12 +49,12 @@
     <div class="skills__icons">
       <img src="../imgs/mysql.png" alt="MySQL" class="skills__icons--img">
     </div>
-    <p class="paragraph">This is just what I have decided to go with for my Full-Stack Development, and is in no way a comprehensive list. I am always up for 
+    <p class="paragraph">These are my chosen web development technologies, and I am still expanding. It is in no way a comprehensive list, and I am always up for 
     learning new stuff! Other languages and technologies I am familiar with include: PHP, Laravel, C#, C++, Java and JavaScript.</p>
   </section>
 
   <!-- Experience -->
-  <section class="about__experience">
+  <section class="about__experience" id="projects">
     <h2 class="sub-heading text-shadow pb-tiny">Experience</h2>
 
     <!-- Vava Project -->
@@ -132,7 +134,7 @@
     field. I always aim to improve and push myself beyond my limits.</p>
   </section>
 
-  <!-- Hobbes -->
+  <!-- Hobbies -->
   <!-- <section class="about__hobbies">
     <h2 class="sub-heading">Hobbies</h2>
     <div class="hobbies__container">
