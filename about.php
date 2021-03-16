@@ -3,7 +3,7 @@
 ?>
 
   <div class="header__about">
-    <h1 class="heading-primary"><a href="index.php" class="about__heading--back">Harry Wijnschenk</a></h1>
+    <h1 class="heading-name"><a href="index.php" class="about__heading--back">Harry Wijnschenk</a></h1>
     <ul class="header__list">
       <li class="header__item">Software Engineer</li>
       <span class="header__seperator">/</span>
@@ -59,12 +59,12 @@
   <!-- Experience -->
   <section class="about__experience" id="projects">
     <div class="container">
-      <h2 class="sub-heading text-shadow pb-tiny">Experience</h2>
+      <h2 class="sub-heading text-shadow">Experience</h2>
 
       <!-- Vava Project -->
       <div class="experience">
         <div class="experience__title">
-          <h3 class="experience__title--name">Vava Rush</h3>
+          <h3 class="experience__title--name">Valeur Rush</h3>
           <p class="experience__title--date">January - February 2021</p>
         </div>
         <div class="experience__description">
