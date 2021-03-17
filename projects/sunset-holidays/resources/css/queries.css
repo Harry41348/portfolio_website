@@ -1,0 +1,90 @@
+
+/* Big tablet to 1200px (widths smaller than 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .hero-text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    h1 {
+        font-size: 200%;
+    }
+    
+    .container {
+        padding: 0 2%;
+    }
+    
+    .social-links {
+        padding-right: 20px;
+    }
+}
+
+/* Small tablets to big tablets - 768px to 1023px */
+@media only screen and (max-width: 1023px ) {
+    .box{ padding: 1% 2%; }
+    
+    html, body { font-size: 18px; }
+        
+    .showcase_heading { font-size: 110%; }
+    .showcase_description { font-size: 80%; }
+    
+    .section-forms { font-size: 90%; }
+    .contact-form { width: 75%;}
+}
+
+/* Small phones to small tablets - 481px to 767px */
+@media only screen and (max-width: 767px) {
+    
+    h1 {
+        text-align: center;
+    }
+    
+    html, body { font-size: 16px; }
+    
+    
+    
+    .showcase_content {
+        display: none;
+    }
+       
+    .showcase_hero {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 30%;
+        flex: 0 0 88%;
+    }
+    
+    .showcase {
+        max-width: 400px;
+    }
+    
+    .phone {
+        display: contents;
+        text-align: center;
+    }
+    
+}   
+
+/* Small phones - 0 to 550px */
+@media only screen and (max-width: 550px) {
+    .job { font-size: 90%; margin-top: 37px;}
+    
+    .main-nav li a { font-size: 80%; }
+    
+    footer p { text-align: center; }
+    
+    .footer-nav { float: left;}
+    
+    .footer-nav, .social-lins { padding: 10px 30px 30px 30px}
+}
+
+/* Small phones - 0 to 480px */
+@media only screen and (max-width: 480px) {
+    
+    cite { text-align: center;}
+    
+    input, select { margin-bottom: 15px; }
+    input[type=submit] { margin-top: 20px; }
+    input[type=checkbox]{margin-bottom: 15px;}
+    .phone-center{text-align: center; margin-bottom: 10px;}
+
+}

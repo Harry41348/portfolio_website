@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Unforgettable holidays on a budget!">
+        
+        <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Grid.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+        <link rel="stylesheet" type="text/css" href="vendors/css/Animate.css">
+        <link href="https://fonts.googleapis.com/css?family=Courgette|Lato:100,300,300i,400|Montserrat:500&display=swap" rel="stylesheet">
+        <title>Contact Us!</title>
+        
+        
+    </head>
+
+    
+    <body>
+        
+        <section class="contact-header" style="padding: 0;">
+            <nav>
+                <div class="container">
+                    <ul class="main-nav">
+                        <li><a href="index.html">About us</a></li>
+                        <li><a class="active" href="#">Enquire</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+        </section>
+
+        <section class="section-forms">
+            <div class="container">
+                <h2>Travel enquiry</h2>
+
+                <form method="post" action="#" class="contact-form">
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="name">Name</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="email">Email</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="tel">Phone Number</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <input type="tel" name="tel" id="tel" placeholder="Your number" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="location">Location of choice</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <input type="text" name="location" id="location" placeholder="Ideal location(s)" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label>Type of travel</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <select name="travel" required>
+                                <option value ="#" selected>Select One</option>
+                                <option value ="Holiday">Holiday</option>
+                                <option value ="Long Weekend">Long Weekend</option>
+                                <option value ="Business">Business</option>
+                                <option value ="Travel">Travel</option>
+                                <option value ="Backpacking">Backpacking</option>
+                                <option value ="Cruise">Travel Cruis</option>
+                                <option value ="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="adults">How many travelers?</label>
+                        </div>
+                        
+                        <div class="col span-1-of-3">
+                            <input type="number" name="adults" id="adults" placeholder="Adults" required>
+                        </div>
+                        
+                        <div class="col span-1-of-3">
+                            <input type="number" name="children" id="children" placeholder="Children" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label>Ideal dates of travel</label>
+                        </div>
+                        
+                        <div class="col span-1-of-3">
+                            <input type="date" name="dates" required>
+                        </div>
+                        
+                        <div class="col span-1-of-3">
+                            <input type="date" name="dates" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label>Are the dates flexible?</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3 phone-center">
+                            <input type="checkbox" name="flexible" id="flexible" checked> Yes,the dates are flexible. 
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="budget">What is your budget?</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3 phone-center">
+                            £ <input type="number" min="0.01" step="0.01" name="budget" id="budget" placeholder="0" required>
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-1-of-3 phone-center">
+                            <label for="disabilities">Do you have any disabilities or medical conditions? If so, please specify.</label>
+                        </div>
+                        
+                        <div class="col span-2-of-3">
+                            <input type="text" name="disabilities" id="disabilities" placeholder="None">
+                        </div>
+                    </div>
+                    
+                    <div class="container">
+                        <div class="col span-3-of-3" style="text-align: center;">
+                            <input type="submit" value="Send">
+                        </div>
+                    </div>
+                    
+                </form>
+            </div>
+        </section>
+        
+    </body>
+
+</html>
