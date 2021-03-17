@@ -19,7 +19,7 @@
       <h2 class="about__me--text text-shadow">Hi, I'm Harry!</h2>
       <p class="paragraph">I am a passionate programmer building a career in Software Engineering, whilst designing 
         and developing high quality websites and web applications from the ground up or using reputable frameworks. 
-        You can see my most recent project <a href="#projects" class="in-text-link">here</a>!</p>
+        You can see my most recent project <a href="projects.php" class="in-text-link">here</a>!</p>
         <p class="paragraph">If I had to describe myself with 3 words, I would say I am approachable, creative and a 
         problem-solver. I am motivated by many parts of programming with its creative freedom, the opportunity to make 
         a difference to people and the feeling of overcoming challenges by implementing well-thought-out solutions.</p>
