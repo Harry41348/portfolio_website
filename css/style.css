@@ -564,6 +564,10 @@ i {
   height: 6rem;
   margin: auto 2rem auto 0;
   text-align: right;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 3.9 Experience */
