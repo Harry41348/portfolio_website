@@ -13,7 +13,9 @@
     <script src="scripts/script.js" async></script>
   </head>
 
-  <body>
+  <body<?php if($page = "projects") { 
+    echo " class=\"projects-body\"";
+  }  ?>>
     <div class="footer__wrapper">
       <div class="header__menu" onclick="myFunction(this)">
         <div class="header__menu--bar bar1"></div>

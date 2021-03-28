@@ -1,16 +1,17 @@
 <?php
+  $page = "projects";
   require_once 'includes/header.php';
 ?>
 </header>
-<main>
+<main class="projects-main">
   <div class="container">
-    <h2 class="sub-heading">Projects</h2>
+    <h2 class="sub-heading projects-heading">Projects</h2>
     <p class="paragraph">Take a look through my most recent projects!</p>
 
     <div class="projects">
       <ul class="projects__list">
 
-      <li class="projects__item">
+        <li class="projects__item">
           <a href="https://www.valeurrush.com" target="_blank"><img src="imgs/projects/vava-1.JPG" alt="Photography portfolio project" class="projects__img">
             <div class="projects__item--content">
               <p class="project__item--title">Valeur Rush</p>
