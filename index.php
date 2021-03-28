@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <!-- <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Mukta:wght@700&display=swap" rel="stylesheet"> -->
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda|Montserrat:wght@300" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <title>Harry W</title>
     </head>

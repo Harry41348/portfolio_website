@@ -1,10 +1,35 @@
 /*
+-Table of contents-
 
-ORDER: Base + typography > pages > general layout + grid > page layout > components
+1. Global
+
+2. Typography
+
+3. Components
+  3.1 Landing page
+  3.2 Navigation
+  3.3 Footer
+  3.4 Home header
+  3.5 About me button
+  3.6 About page
+  3.7 About me
+  3.8 About skills
+  3.9 Experience
+  3.10 About education
+  3.11 About hobbies
+  3.12 Projects
+
+4. Utilities
+
+5. Animations
+
+6. Responsive Design
 
 1em = 16px
 1rem = 10px
 */
+
+/*=== 1. GLOBAL ===*/
 
 *,
 *::after,
@@ -14,17 +39,42 @@ ORDER: Base + typography > pages > general layout + grid > page layout > compone
   box-sizing: inherit;
 }
 
-html { font-size: 62.5%; /* 1rem = 10px */ }
+html { 
+  font-size: 62.5%; /* 1rem = 10px */ 
+}
 
 body { 
+  /* Variables */
+  --colour-dark: #444;
+  --colour-light: #eee;
+  --colour-primary: #3498db;
+
+
+  --font-heading: '';
+  --font-paragraph: '';
+
+  --background-gradient: linear-gradient(rgba(33, 66, 66, 0.65), rgba(33, 47, 59, 0.65));
+  /* --primary-gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+
+  
+  /* Styling */
   font-family: "Ruda", sans-serif;
   font-weight: 400;
-  color: #777; 
-  background-color: #eee;
+  color: var(--colour-light); 
+  background-color: #000;
+  background: #000;  /* fallback for old browsers */
+  /* background: -webkit-linear-gradient(to right, #243B55, #141E30);  */
+  background: linear-gradient(to right, #2b5876, #4e4376);
+
+
+  /* background-image: linear-gradient(90deg, #16222a, #0b1114); */
+  background-size: cover;
 
   -webkit-box-sizing: border-box;
-    box-sizing: border-box;
+          box-sizing: border-box;
   line-height: 1.7;
+
+  
 }
 
 .container {
@@ -37,6 +87,17 @@ body {
   display: table;
   clear: both;
 }
+
+.line-space {
+  padding-bottom: 1rem;
+}
+
+
+section {
+  padding-bottom: 4rem;
+}
+
+/*=== 2. Typography ===*/
 
 .sub-heading {
   font-size: 3rem;
@@ -73,32 +134,35 @@ body {
 
 .in-text-link:link,
 .in-text-link:visited {
-  color: #fff;
-  background-color: #2c3e50;
+  color: var(--colour-light);
+  /* background-color: inherit; */
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% .3rem;
+  background-position: 0 88%;
+  transition: background-size .4s ease-in-out, color .4s ease;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: bold;
 
   display: inline-block;
   transition: all .3s ease-in-out;
+  margin: 0 .2rem;
 }
 
-.in-text-link:hover {
-  transform: rotateZ(-10deg) scale(1.5);
-  box-shadow: 0px 0px 15px 5px rgba(18,26,33,0.8)
-}
+  .in-text-link:hover {
+    color: var(--colour-dark);
+    background-size: 100% 200%;
+    margin: 0 0;
+    padding: 0 .2rem;
+  }
 
-.line-space {
-  padding-bottom: 1rem;
-}
+/*=== 3. Components ===*/
 
-
-section {
-  padding-bottom: 4rem;
-}
+/*== 3.1 Landing page ==*/
 
 .header__list {
-  color: #bbb;
+  color: #ddd;
   font-size: 2rem;
 
   list-style-type: none;
@@ -109,7 +173,7 @@ section {
   display: inline;
 }
 
-/* Nav bar */
+/*== 3.2 Navigation ==*/
 
 .header__menu {
   position: fixed;
@@ -122,15 +186,17 @@ section {
 .header__menu--bar {
   width: 3.5rem;
   height: .5rem;
-  background-color: #222;
+  background-color: #eee;
   margin: .6rem 0;
   transition: 0.4s;
   border-radius: .5rem;
+  box-shadow: 0 0 .2rem .2rem rgba(0,0,0,0.3);
 }
 
 .change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-.9rem, .6rem) ;
-  transform: rotate(-45deg) translate(-.9rem, .6rem) ;
+  -webkit-transform: rotate(-45deg) translate(-.9rem, .6rem);
+  transform: rotate(-45deg) translate(-.9rem, .6rem);
+  box-shadow: none;
 }
 
 .change .bar2 {
@@ -138,14 +204,15 @@ section {
 }
 
 .change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-.8rem, -.8rem) ;
-  transform: rotate(45deg) translate(-.8rem, -.8rem) ;
+  -webkit-transform: rotate(45deg) translate(-.8rem, -.8rem);
+  transform: rotate(45deg) translate(-.8rem, -.8rem)s;
+  box-shadow: none;
 }
 
 .header__menu--overlay {
   height: 100vh;
   width: 100vw;
-  background: #2c3e50;
+  background: #333;
   z-index: 998;
   visibility: hidden;
   opacity: 0;
@@ -182,7 +249,7 @@ section {
   color: #222;
 }
 
-/* Footer */
+/*== 3.3 Footer ==*/
 
 .footer__wrapper {
   min-height: 100vh;
@@ -235,10 +302,11 @@ i {
 }
 
 
-/* Home page */
+/*== 3.4 Home header ==*/
 
 .header__home {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero-mobile.jpg);
+  background-image: var(--background-gradient), url(./images/hero-mobile.jpg);
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -259,7 +327,7 @@ i {
   font-weight: 600;
 }
 
-/* About me button */
+/* 3.5 About me button */
 
 .header__home--button:link,
 .header__home--button:visited {
@@ -281,19 +349,14 @@ i {
   color: #000;
 }
 
-/* About page */
+/* 3.6 About page */
 
 .header__about {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./images/about-header.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  box-shadow: 0 0 1rem .4rem rgba(0,0,0,0.2);
   position: relative;
-  font-family: 'Ruda', cursive;
+  font-family: 'montserrat', sans-serif;
   text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  font-weight: 300;
+  padding-top: 5rem;
 
   display: flex;
   flex-direction: column;
@@ -302,7 +365,7 @@ i {
 
 .heading-name {
   color: #fff;
-  font-size: 5rem;
+  /* font-size: 5rem; */
   text-transform: uppercase;
 }
 
@@ -319,24 +382,43 @@ i {
   font-size: 2rem;
 }
 
-/* About me */
+/* 3.7 About me */
 
 .about__me {
-  background-color: #2c3e50;
-  color: #fff;
+  /* background-color: #fff; */
+  color: var(--colour-light);
   padding-bottom: 3rem;
 }
 
+.about__me--container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 0;
+  margin: 1rem 0 3rem 0;
+}
+
 .about__me--text {
+  display: inline;
   font-size: 5rem;
   letter-spacing: 0;
   text-align: center;
-  font-family: 'Ruda', cursive;
-  font-weight: 400;
+  font-family: 'Montserrat', cursive;
+  font-weight: 300;
   padding: 2rem 0 0 0;
 }
 
-/* About skills */
+.about__me--big {
+  font-size: 10rem;
+}
+
+.about__me--main {
+  font-size: 4rem;
+  line-height: 1;
+  text-align: left;
+}
+
+/* 3.8 About skills */
 
 .about__skills {
   background-color: #eee;
@@ -366,7 +448,7 @@ i {
 }
 
 
-/* Experience */
+/* 3.9 Experience */
 
 .about__experience {
   background-color: #2c3e50;
@@ -418,7 +500,7 @@ i {
 }
 
 
-/* About Education */
+/* 3.10 About Education */
 
 .about__education {
   background-color: #eee;
@@ -439,7 +521,7 @@ i {
 }
 
 
-/* About Hobbies */
+/* 3.11 About Hobbies */
 
 .about__hobbies {
   background-color: #2c3e50;
@@ -461,7 +543,7 @@ i {
 }
 
 
-/* Projects */
+/* 3.12 Projects */
 
 .projects__list {
   display: flex;
@@ -548,7 +630,7 @@ i {
 }
 
 
-/* Utilities */
+/* 4. Utilities */
 .u-center-text { text-align: center !important; }
 
 .pb-medium { padding-bottom: 4rem !important; }
@@ -604,7 +686,7 @@ i {
 .tag__grey { background-color: rgba(50, 50, 50, 80%); }
 
 
-/* Animations */
+/* 5. Animations */
 
 @keyframes moveInLeft {
   0% {
@@ -635,11 +717,11 @@ i {
     transform: translate(0); } }
 
 
-/* Responsive Design */
+/* 6. Responsive Design */
 
 @media all and (min-width: 37.5em) { /* Portrait tablets - 600px+ */
   html { font-size: 75%; /* 1rem = 12px */ }
-  .header__home { background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/hero-tablets.jpg); }
+  .header__home { background-image: var(--background-gradient), url(./images/hero-tablets.jpg); }
 }
 
 @media all and (min-width: 56.25em) { /* Landscape tablets - 900px+ */

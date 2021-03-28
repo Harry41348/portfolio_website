@@ -6,7 +6,7 @@ function myFunction(x) {
     menu.style.opacity = 0;
     menu.style.visibility = "hidden";
   } else {
-    menu.style.opacity = 1;
+    menu.style.opacity = .95;
     menu.style.visibility = "visible";
   }
 } 
