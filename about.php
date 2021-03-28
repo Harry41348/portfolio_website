@@ -95,9 +95,6 @@
         </div>
         <div class="skills__bar csharp">80%</div>
       </div>
-
-      <p class="paragraph">These are my chosen web development technologies, and I am still expanding. It is in no way a comprehensive list, and I am always up for 
-      learning new stuff! Other languages and technologies I am familiar with include: PHP, Laravel, C#, C++, Java and JavaScript.</p>
     </div>
   </section>
 
@@ -168,21 +165,21 @@
       <h2 class="sub-heading">Education</h2>
       <!-- <img src="imgs/book.png" alt="Self education logo" class="education__img"> -->
       <div class="education__container">
-        <p class="paragraph">Self education - <span class="text-dark">A lot of my free time is devoted to studying and improving on myself, especially with a pandemic 
-        going on I feel my time is best spent improving. I have learnt web technologies by myself using online courses, tutorials and experimenting. I love what I do 
-        which helps me to stay motivated and persistent with times like this.</span></p>
+        <p class="paragraph"><span class="education-title">Self education</span> - I spend the majority of my time studying 
+        and learning new technology, and improving on myself. With the pandemic going on, I realise my time can be better 
+        spent improving and pushing myself.</p>
       </div>
       <div class="education__container">
-        <p class="paragraph">University of huddersfield - <span class="text-dark">Uni has developed many of my skills for both software engineering and in general. I 
-        have changed in many ways as a person for the better. I have had a great experience where possible, and gained a great arsenal of programming relating skills, 
-        including problem solving with algorithms and data structures, working as a team to develop software, and much more.</span></p>
+        <p class="paragraph"><span class="education-title">University of huddersfield</span> - Uni has been life-changing 
+        for me. I have developed many skills for software engineering and have become much more independant and responsible. 
+        I have generally had a great experience, pandemic aside.</p>
       </div>
       <div class="education__container">
-        <p class="paragraph">Cambridge regional college - <span class="text-dark">My college experience was not the greatest, but introduced me to a range of computing 
-        topics. This lead me to choosing a career in Software Engineering, and how to work efficiently as I had to teach myself many of the subjects.</span></p>
+        <p class="paragraph"><span class="education-title">CRC</span> - My college experience was not the greatest, 
+        however, introduced me to a range of computing topics, which lead me to strive for a career in Software Engineering.
       </div>
-      <p class="paragraph text-dark">Overall my education has given be an amazing passion and strong mentality towards achieving the best that I can out of my chosen 
-      field. I always aim to improve and push myself beyond my limits.</p>
+      <p class="paragraph text-dark">Overall my education has given be an amazing passion and determined mindset towards 
+        Software Engineering/Full-Stack Development. I always aim to improve and push myself beyond my limits.</p>
     </div>
   </section>
 

@@ -448,6 +448,7 @@ i {
   align-items: center;
   justify-content: center;
   margin: 1rem 0;
+  padding-left: 1rem;
 }
 
 .skills__bar {
@@ -511,7 +512,7 @@ i {
 .skills__img--container {
   width: 5rem;
   height: 6rem;
-  margin-right: 2rem;
+  margin: auto 2rem auto 0;
   text-align: right;
 }
 
@@ -550,7 +551,7 @@ i {
 }
 
 .experience__title--date {
-  color: #999;
+  color: #bbb;
   margin-left: 0.5rem;
 }
 
@@ -587,6 +588,10 @@ i {
   margin: 0 auto;
 }
 
+.education-title {
+  text-shadow: 1px 2px 1px #3337;
+  color: #444;
+}
 
 /* 3.11 About Hobbies */
 
