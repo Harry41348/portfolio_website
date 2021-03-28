@@ -727,8 +727,8 @@ i {
 }
 
   .projects__list li:hover .projects__img {
-    transform: scale(1.1);
-    filter: blur(.5rem);
+    transform: scale(1.2);
+    filter: brightness(50%);
   }
 
 .projects__item--front,
