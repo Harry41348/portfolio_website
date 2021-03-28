@@ -13,7 +13,8 @@
     <script src="scripts/script.js" async></script>
   </head>
 
-  <body<?php if($page = "projects") { 
+  <body <?php 
+  if($page == "projects") { 
     echo " class=\"projects-body\"";
   }  ?>>
     <div class="footer__wrapper">

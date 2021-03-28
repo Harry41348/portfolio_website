@@ -1,4 +1,5 @@
 <?php
+  $page = "about";
   require_once 'includes/header.php';
 ?>
 
