@@ -18,21 +18,19 @@
     <div class="container">
       <h2 class="about__me--container"><span class="about__me--text about__me--big">Hi!</span>
       <span class="about__me--text about__me--main">I'm<br />Harry</span></h2>
-      <p class="paragraph">I am a passionate programmer building a career in Software Engineering, whilst designing 
-        and developing high quality websites and web applications from the ground up or using reputable frameworks. 
-        You can see my most recent projects <a href="projects.php" class="in-text-link">here</a>!</p>
-        <p class="paragraph">If I had to describe myself with 3 words, I would say I am approachable, creative and a 
-        problem-solver. I am motivated by many parts of programming with its creative freedom, the opportunity to make 
-        a difference to people and the feeling of overcoming challenges by implementing well-thought-out solutions.</p>
-      <p class="paragraph">I have developed projects for myself, friends, family and clients. I will professionally  
-        design and develop to your websites needs. I will be developing many more projects at jobs, freelancing and 
-        for fun. Make sure to <a href="#footer" class="in-text-link">Contact</a> me for the best deals whilst I 
-        am gaining valuable experience.</p>
+      <p class="paragraph">Current studying Software Engineering, I am determined for a successful career 
+      as a Software Engineer, a full-stack web developer or a combination of the two. I want to make a 
+      difference and help make this world a better place, and am working hard to gain the right skills 
+      to achieve this!</p>
+      <p class="paragraph">I enjoy designing and developing websites, this brings out my creative and 
+      problem solving mindset. My recent projects can be seen <a href="projects.php" class="in-text-link">here.</a> 
+      I plan on developing many more, and if you want to get in touch then make sure to 
+      <a href="#footer" class="in-text-link">Contact</a> me!</p>
     </div>
   </section>
 
   <!-- Skills -->
-  <section class="about__skills">
+  <section class="about__skills clip-path-section">
     <div class="container">
       <h2 class="sub-heading">Skills</h2>
       <p class="paragraph">I have dipped in and out of many different languages and technologies. I have enjoyed it all and although I love learning new things, 
@@ -119,7 +117,7 @@
   </section>
   
   <!-- Education -->
-  <section class="about__education">
+  <section class="about__education clip-path-section">
     <div class="container">
       <h2 class="sub-heading">Education</h2>
       <!-- <img src="imgs/book.png" alt="Self education logo" class="education__img"> -->
