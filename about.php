@@ -5,7 +5,7 @@
   <div class="header__about">
     <h1 class="heading-name"><a href="index.php" class="about__heading--back">Harry Wijnschenk</a></h1>
     <ul class="header__list">
-      <li class="header__item">Software Engineer</li>
+      <li class="header__item">Full-Stack Developer</li>
       <span class="header__seperator">/</span>
       <li class="header__item">Student</li>
     </ul>
@@ -33,23 +33,69 @@
   <section class="about__skills clip-path-section">
     <div class="container">
       <h2 class="sub-heading">Skills</h2>
-      <p class="paragraph">I have dipped in and out of many different languages and technologies. I have enjoyed it all and although I love learning new things, 
-      I have stuck with a few for my Web Development, which are shown below.</p>
+      <p class="paragraph">I am a fan of learning new skills, which has improved my ability to learn new 
+        language quickly. I am now focusing on front end languages with Django for full-stack development. 
+      </p>
       <h3 class="skills__title">Front-end</h3>
-      <div class="skills__icons">
-        <img src="imgs/html.png" alt="HTML" class="skills__icons--img">
-        <img src="imgs/css.png" alt="CSS" class="skills__icons--img">
+      <!-- HTML -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/html.png" alt="HTML icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar html">100%</div>
+      </div>
+      <!-- CSS -->
+      <div class="skills__container">
+      <div class="skills__img--container">
+          <img src="imgs/css.png" alt="CSS icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar css">80%</div>
+      </div>
+      <!-- JS -->
+      <div class="skills__container">
+      <div class="skills__img--container">
+          <img src="imgs/css.png" alt="CSS icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar css">80%</div>
       </div>
       <h3 class="skills__title">Back-end</h3>
-      <div class="skills__icons">
-        <img src="imgs/django.png" alt="Django" class="skills__icons--img">
-        <!-- <img src="imgs/php.png" alt="PHP" class="skills__icons--img">
-        <img src="imgs/cplusplus.png" alt="C++" class="skills__icons--img"> -->
+      <!-- Django -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/django.png" alt="Django icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar django">50%</div>
       </div>
-      <h3 class="skills__title">Other technologies</h3>
-      <div class="skills__icons">
-        <img src="imgs/mysql.png" alt="MySQL" class="skills__icons--img">
+      <h3 class="skills__title">Other skills</h3>
+      <!-- MySQL -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/mysql.png" alt="MySQL icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar mysql">60%</div>
       </div>
+      <!-- PHP -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/php.png" alt="PHP icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar php">80%</div>
+      </div>
+      <!-- C++ -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/cplusplus.png" alt="C++ icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar cplusplus">50%</div>
+      </div>
+      <!-- C++ -->
+      <div class="skills__container">
+        <div class="skills__img--container">
+          <img src="imgs/c-sharp.png" alt="C# icon" class="skills__icons--img">
+        </div>
+        <div class="skills__bar csharp">80%</div>
+      </div>
+
       <p class="paragraph">These are my chosen web development technologies, and I am still expanding. It is in no way a comprehensive list, and I am always up for 
       learning new stuff! Other languages and technologies I am familiar with include: PHP, Laravel, C#, C++, Java and JavaScript.</p>
     </div>

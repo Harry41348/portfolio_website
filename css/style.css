@@ -50,8 +50,8 @@ body {
   --colour-primary: #3498db;
 
 
-  --font-heading: '';
-  --font-paragraph: '';
+  --font-heading: 'Montserrat', cursive;
+  --font-paragraph: 'Ruda';
 
   --background-gradient: linear-gradient(rgba(33, 66, 66, 0.65), rgba(33, 47, 59, 0.65));
   /* --primary-gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
@@ -226,13 +226,14 @@ section {
 }
 
 .header__menu--overlay {
-  height: 100vh;
-  width: 100vw;
+  position: fixed;
+  height: 20rem;
+  top: -22rem;
+  width: 100%;
   background: #333;
   z-index: 998;
-  visibility: hidden;
-  opacity: 0;
-  position: fixed;
+  /* visibility: hidden; */
+  /* opacity: 0; */
 
   transition: all .3s ease-out;
 }
@@ -243,7 +244,7 @@ section {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  height: 100vh;
+  height: 100%;
   padding-left: 0;
   list-style-type: none;
 }
@@ -256,7 +257,7 @@ section {
   color: white;
   text-decoration: none;
   font-size: 2rem;
-  font-family: "Roboto Slab", sans-serif;
+  font-family: "Montserrat", sans-serif;
 
   transition: color .3s ease-in-out;
 }
@@ -434,32 +435,85 @@ i {
 
 /* 3.8 About skills */
 
-.about__skills {
-}
-
 .skills__title {
   text-align: center;
+  font-family: 'Share Tech Mono', monospace;
   font-size: 2.8rem;
   letter-spacing: 1px;
   color: #666;
 }
 
-.skills__icons {
+.skills__container {
   display: flex;
+  align-items: center;
   justify-content: center;
+  margin: 1rem 0;
 }
+
+.skills__bar {
+  flex: 0 0 70%;
+  /* justify-self: end; */
+
+  font-size: 2rem;
+  font-family: 'Share Tech Mono', monospace;
+  width: 100%;
+  margin: 0 3rem 0 1rem;
+  padding: .5rem 1rem;
+  text-align: right;
+  box-shadow: inset 0 0 5px 3px #1a242936;
+
+  background-image: linear-gradient(120deg, #3c7fac, #7160ac);
+  background-repeat: no-repeat;
+  background-position: 0 88%;
+
+  transition: all .3s ease-in-out;
+}
+
+  .html {
+    background-size: 100% 100%;
+    color: var(--colour-light)
+  }
+
+  .css {
+    background-size: 80% 100%;
+  }
+
+  .django {
+    background-size: 50% 100%;
+  }
+
+  .mysql {
+    background-size: 60% 100%;
+  }
+
+  .php {
+    background-size: 80% 100%;
+  }
+
+  .cplusplus {
+    background-size: 50% 100%;
+  }
+
+  .csharp {
+    background-size: 80% 100%;
+  }
 
 .skills__icons--img {
+  flex: 0 1 minmax(min-content, 20%);
   width: auto;
-  height: 6rem;
-  margin: 1rem 2rem;
+  max-width: 5rem;
+  max-height: 6rem;
+  /* margin: 0 2rem auto 2rem; */
   transition: all .4s ease-in-out;
+  text-align: right;
 }
 
-.skills__icons--img:hover {
-  transform: scale(1.5) rotateZ(360deg);
+.skills__img--container {
+  width: 5rem;
+  height: 6rem;
+  margin-right: 2rem;
+  text-align: right;
 }
-
 
 /* 3.9 Experience */
 
@@ -753,6 +807,49 @@ i {
   html { font-size: 87.5%; /* 1rem = 14px */ }
   .u-margin-bottom-large { margin-bottom: 5rem !important; } 
   .u-margin-bottom-medium { margin-bottom: 3rem !important; }
+
+  .skills__bar {
+    box-shadow: none;
+    background-size: .5rem 100%;
+    color: var(--colour-dark);
+  }
+
+  .skills__container:hover > .skills__icons--img {
+    transform: scale(1.5);
+  }  
+
+  .skills__container:hover > .skills__bar {
+    box-shadow: inset 0 0 5px 3px #1a242936;
+  }
+
+  .skills__container:hover > .html {
+    background-size: 100% 100%;
+    color: var(--colour-light)
+  }
+
+  .skills__container:hover > .css {
+    background-size: 80% 100%;
+  }
+
+  .skills__container:hover > .django {
+    background-size: 50% 100%;
+  }
+
+  .skills__container:hover > .mysql {
+    background-size: 60% 100%;
+  }
+
+  .skills__container:hover > .php {
+    background-size: 80% 100%;
+  }
+
+  .skills__container:hover > .cplusplus {
+    background-size: 50% 100%;
+  }
+
+  .skills__container:hover > .csharp {
+    background-size: 80% 100%;
+  }
 }
 
 @media all and (min-width: 75em) { /* Desktops - 1200px+ */

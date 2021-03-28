@@ -2,11 +2,9 @@ function myFunction(x) {
   x.classList.toggle("change");
 
   var menu = document.getElementById("menu");
-  if (menu.style.opacity != 0){
-    menu.style.opacity = 0;
-    menu.style.visibility = "hidden";
+  if(x.classList.contains("change")){
+    menu.style.top = 0;
   } else {
-    menu.style.opacity = .95;
-    menu.style.visibility = "visible";
+    menu.style.top = '-22rem';
   }
 } 
