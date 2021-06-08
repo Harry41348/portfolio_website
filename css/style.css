@@ -574,6 +574,10 @@ i {
   height: 6rem;
   margin: auto 2rem auto 0;
   text-align: right;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* 3.9 Experience */
@@ -737,8 +741,8 @@ i {
 }
 
   .projects__list li:hover .projects__img {
-    transform: scale(1.1);
-    filter: blur(.5rem);
+    transform: scale(1.2);
+    filter: brightness(50%);
   }
 
 .projects__item--front,

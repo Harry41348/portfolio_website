@@ -46,14 +46,14 @@
       </div>
       <!-- CSS -->
       <div class="skills__container">
-      <div class="skills__img--container">
+        <div class="skills__img--container">
           <img src="imgs/css.png" alt="CSS icon" class="skills__icons--img">
         </div>
         <div class="skills__bar css">80%</div>
       </div>
       <!-- JS -->
       <div class="skills__container">
-      <div class="skills__img--container">
+        <div class="skills__img--container">
           <img src="imgs/javascript.png" alt="JS icon" class="skills__icons--img">
         </div>
         <div class="skills__bar js">40%</div>
