@@ -6,7 +6,7 @@
 <main class="projects-main">
   <div class="container">
     <h2 class="sub-heading projects-heading">Projects</h2>
-    <p class="paragraph">Take a look through my most recent projects!</p>
+    <p class="paragraph">Take a look through my projects!</p>
 
     <div class="projects">
       <ul class="projects__list">

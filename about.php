@@ -6,9 +6,9 @@
   <div class="header__about">
     <h1 class="heading-name"><a href="index.php" class="about__heading--back">Harry Wijnschenk</a></h1>
     <ul class="header__list">
-      <li class="header__item">Full-Stack Developer</li>
+      <li class="header__item">Software Engineer</li>
       <span class="header__seperator">/</span>
-      <li class="header__item">Student</li>
+      <li class="header__item">Web Developer</li>
     </ul>
   </div>
 </header>
@@ -19,12 +19,11 @@
     <div class="container">
       <h2 class="about__me--container"><span class="about__me--text about__me--big">Hi!</span>
       <span class="about__me--text about__me--main">I'm<br />Harry</span></h2>
-      <p class="paragraph">Current studying Software Engineering, I am determined for a successful career 
-      as a Software Engineer, a full-stack web developer or a combination of the two. I want to make a 
-      difference and help make this world a better place, and am working hard to gain the right skills 
-      to achieve this!</p>
-      <p class="paragraph">I enjoy designing and developing websites, this brings out my creative and 
-      problem solving mindset. My recent projects can be seen <a href="projects.php" class="in-text-link">here.</a> 
+      <p class="paragraph">Working hard towards a degree in Software Engineering, I am determined for a successful career. 
+      I want to make a difference and help make this world a better place, and will work hard to gain the right skills 
+      to achieve this.</p>
+      <p class="paragraph">I enjoy designing and developing websites, this brings out my creative side and 
+      gives me the opportunity to problem solve. My recent projects can be seen <a href="projects.php" class="in-text-link">here.</a> 
       I plan on developing many more, and if you want to get in touch then make sure to 
       <a href="#footer" class="in-text-link">Contact</a> me!</p>
     </div>
@@ -34,9 +33,9 @@
   <section class="about__skills clip-path-section">
     <div class="container">
       <h2 class="sub-heading">Skills</h2>
-      <p class="paragraph">I am a fan of learning new skills, which has improved my ability to learn new 
-        language quickly. I am now focusing on front end languages with Django for full-stack development. 
-      </p>
+      <p class="paragraph">I love learning about anything technical, and want a deep understanding 
+      into a variety of technologies, both software and hardware. The following is how I would judge 
+      my understanding of some languages I am familiar with.</p>
       <h3 class="skills__title">Front-end</h3>
       <!-- HTML -->
       <div class="skills__container">
@@ -55,9 +54,9 @@
       <!-- JS -->
       <div class="skills__container">
       <div class="skills__img--container">
-          <img src="imgs/css.png" alt="CSS icon" class="skills__icons--img">
+          <img src="imgs/javascript.png" alt="JS icon" class="skills__icons--img">
         </div>
-        <div class="skills__bar css">80%</div>
+        <div class="skills__bar js">40%</div>
       </div>
       <h3 class="skills__title">Back-end</h3>
       <!-- Django -->
@@ -73,7 +72,7 @@
         <div class="skills__img--container">
           <img src="imgs/mysql.png" alt="MySQL icon" class="skills__icons--img">
         </div>
-        <div class="skills__bar mysql">60%</div>
+        <div class="skills__bar mysql">70%</div>
       </div>
       <!-- PHP -->
       <div class="skills__container">
@@ -87,7 +86,7 @@
         <div class="skills__img--container">
           <img src="imgs/cplusplus.png" alt="C++ icon" class="skills__icons--img">
         </div>
-        <div class="skills__bar cplusplus">50%</div>
+        <div class="skills__bar cplusplus">70%</div>
       </div>
       <!-- C++ -->
       <div class="skills__container">
@@ -104,23 +103,24 @@
     <div class="container">
       <h2 class="sub-heading text-shadow">Experience</h2>
 
-      <!-- Vava Project -->
+      <!-- Game Development -->
       <div class="experience">
         <div class="experience__title">
-          <h3 class="experience__title--name">Valeur Rush</h3>
-          <p class="experience__title--date">January - February 2021</p>
+          <h3 class="experience__title--name">Games Development</h3>
+          <p class="experience__title--date">2015 - 2018</p>
         </div>
         <div class="experience__description">
           <div class="experience__description--tags">
-            <span class="tag tag__orange">HTML5</span>
-            <span class="tag tag__blue">CSS</span>
-            <span class="tag tag__purple">PHP</span>          
+            <span class="tag tag__grey">Unity</span>
+            <span class="tag tag__purple">C#</span>
           </div>
-          <p class="experience__description--text">My first official website. I developed this for a friend as a photography portfolio. 
-            The website uses a database to store images and using PHP to display all the projects and images. This project improved my 
-            understanding of development, project analysis, time management and problem solving skills.</p>
+          <p class="experience__description--text">This is where my personal projects started. I developed 
+          games which my friends would play and test. I created top down shooters and arcade-style games and 
+          bought them in with a cheap laptop. I quickly moved onto Unity and developed a game which I released 
+          to the play store briefly.</p>
         </div>
       </div>
+
 
       <!-- Django Project -->
       <div class="experience">
@@ -134,29 +134,33 @@
             <span class="tag tag__purple">Bootstrap</span>
             <span class="tag tag__green">Django</span>
           </div>
-          <p class="experience__description--text">For one of my job applications, I had to develop a project in Django which was my 
-            introduction to the MVT framework. Now with my free time, I am reading the Tango with Django book to get a better understanding 
-            of the framework and plan to make some bigger projects in the coming months.
+          <p class="experience__description--text">For one of my job applications, I had to develop a project 
+          in Django which was my introduction to the MVT framework. I had fun learning and developing for this 
+          project, and was fed up of wasting time during the lockdown, so I decided to start developing more 
+          projects and learning new skills in my free time.
           </p>
         </div>
       </div>
 
-      <!-- Rush Game -->
+      <!-- Vava Project -->
       <div class="experience">
         <div class="experience__title">
-          <h3 class="experience__title--name">Rush</h3>
-          <p class="experience__title--date">March - October 2017</p>
+          <h3 class="experience__title--name">Web Development</h3>
+          <p class="experience__title--date">March 2020 - Present</p>
         </div>
         <div class="experience__description">
           <div class="experience__description--tags">
-            <span class="tag tag__grey">Unity</span>
-            <span class="tag tag__purple">C#</span>
+            <span class="tag tag__orange">HTML5</span>
+            <span class="tag tag__blue">CSS</span>
+            <span class="tag tag__purple">PHP</span>          
           </div>
-          <p class="experience__description--text">My first project I ever took on was a game called Rush. Briefly featured on the 
-          play store. The objective was simple, the player controls a circle which could move up or down, and the aim was to reach 
-          the end of the level without being stopped by obstacles.</p>
+          <p class="experience__description--text">I took it onto myself to learn web development during the 
+          first lockdown. It was going well before my procrastination took over. But the content stuck, and during 
+          the second lockdown I started developing again. I have since developed and released a website, and in the 
+          process of designing and developing my next project.</p>
         </div>
       </div>
+
     </div>
   </section>
   
@@ -166,18 +170,19 @@
       <h2 class="sub-heading">Education</h2>
       <!-- <img src="imgs/book.png" alt="Self education logo" class="education__img"> -->
       <div class="education__container">
-        <p class="paragraph"><span class="education-title">Self education</span> - I spend the majority of my time studying 
-        and learning new technology, and improving on myself. With the pandemic going on, I realise my time can be better 
-        spent improving and pushing myself.</p>
+        <p class="paragraph"><span class="education-title">CRC</span> - I was not a fan of college, but it did 
+        introduce me to many core topics in Computing. I spent a lot of time to myself and realized that college 
+        did not prepare me enough for a career in Software Engineering, and decided to apply for University.
       </div>
       <div class="education__container">
-        <p class="paragraph"><span class="education-title">University of huddersfield</span> - Uni has been life-changing 
-        for me. I have developed many skills for software engineering and have become much more independant and responsible. 
-        I have generally had a great experience, pandemic aside.</p>
+        <p class="paragraph"><span class="education-title">University of huddersfield</span> - Uni was the best 
+        decision I made. I have developed so many skills, made life-long friends and found out more about myself 
+        in my first and second year than I have in my whole life.</p>
       </div>
       <div class="education__container">
-        <p class="paragraph"><span class="education-title">CRC</span> - My college experience was not the greatest, 
-        however, introduced me to a range of computing topics, which lead me to strive for a career in Software Engineering.
+        <p class="paragraph"><span class="education-title">Self education</span> - I want to get a grasp on many 
+        different aspects of Computer Science, so instead of watching YouTube or Netflix, I enjoy learning more 
+        about how the computer works, networks, AI, security, etc.</p>
       </div>
       <p class="paragraph text-dark">Overall my education has given be an amazing passion and determined mindset towards 
         Software Engineering/Full-Stack Development. I always aim to improve and push myself beyond my limits.</p>

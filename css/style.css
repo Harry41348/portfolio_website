@@ -100,6 +100,8 @@ section {
   padding-bottom: 2rem;
 }
 
+
+
 .clip-path-section {
   color: var(--colour-dark);
   background-color: var(--colour-light);
@@ -288,6 +290,10 @@ section {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+}
+
+.footer > div {
+  margin: 0 2rem;
 }
 
 .push {
@@ -529,12 +535,16 @@ i {
     background-size: 80% 100%;
   }
 
+  .js {
+    background-size: 40% 100%;
+  }
+
   .django {
     background-size: 50% 100%;
   }
 
   .mysql {
-    background-size: 60% 100%;
+    background-size: 70% 100%;
   }
 
   .php {
@@ -542,7 +552,7 @@ i {
   }
 
   .cplusplus {
-    background-size: 50% 100%;
+    background-size: 70% 100%;
   }
 
   .csharp {
@@ -639,7 +649,7 @@ i {
 }
 
 .education-title {
-  text-shadow: 1px 2px 1px #3337;
+  text-shadow: 1px 1px 1px #3337;
   color: #444;
 }
 
@@ -668,25 +678,25 @@ i {
 /* 3.12 Projects */
 
 .projects-body {
-  background: #2a2a2a;
+  background: #eee;
 }
 
 .projects-body .footer {
-  background-color: inherit;
   box-shadow: none;
   border-top: solid 1px #a1a1a1;
 }
 
-
+.projects-main .paragraph {
+  color: var(--colour-dark);
+}
 
 .projects-heading {
-  color: var(--colour-light);
   font-family: var(--font-heading);
 }
 
 .projects-heading::after {
-  border: 1px solid var(--colour-light);
-  background-color: var(--colour-light);
+  border: 1px solid var(--colour-dark);
+  background-color: var(--colour-dark);
 }
 
 .projects__list {
@@ -880,7 +890,7 @@ i {
   }
 
   .footer {
-    justify-content: space-evenly;
+    justify-content: center;
   }
 }
 
@@ -912,12 +922,16 @@ i {
     background-size: 80% 100%;
   }
 
+  .skills__container:hover > .js {
+    background-size: 40% 100%;
+  }
+
   .skills__container:hover > .django {
     background-size: 50% 100%;
   }
 
   .skills__container:hover > .mysql {
-    background-size: 60% 100%;
+    background-size: 70% 100%;
   }
 
   .skills__container:hover > .php {
@@ -925,7 +939,7 @@ i {
   }
 
   .skills__container:hover > .cplusplus {
-    background-size: 50% 100%;
+    background-size: 70% 100%;
   }
 
   .skills__container:hover > .csharp {

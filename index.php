@@ -17,7 +17,7 @@
                 <ul class="header__list">
                     <li class="header__item">Software Engineer</li>
                     <span class="header__seperator">/</span>
-                    <li class="header__item">Student</li>
+                    <li class="header__item">Web Developer</li>
                 </ul>
                 <div class="center">
                     <a href="about.php" class="header__home--button">About me</a>
