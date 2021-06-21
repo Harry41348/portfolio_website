@@ -6,10 +6,23 @@
 <main class="projects-main">
   <div class="container">
     <h2 class="sub-heading projects-heading">Projects</h2>
-    <p class="paragraph">Take a look through my projects!</p>
+    <p class="paragraph">Here is a collection of the websites I have developed, feel free to visit them by clicking on them!</p>
 
     <div class="projects">
       <ul class="projects__list">
+
+        <li class="projects__item">
+          <a href="./projects/sunset-holidays" target="_blank"><img src="imgs/projects/tuinaanleg.JPG" alt="Sunset Holidays Image" class="projects__img" style="object-position: left;">
+            <div class="projects__item--content">
+              <p class="project__item--title">Tuinaanleg4u</p>
+              <p class="project__item--desc">Website designed and developed for a high-end garden constuctor. (Netherlands)</p>
+              <div class="projects__item--tags">
+                <span class="tag-small tag__blue">CSS</span>
+                <span class="tag-small tag__purple">PHP</span>
+              </div>
+            </div>
+          </a>
+        </li>
 
         <li class="projects__item">
           <a href="https://www.valeurrush.com" target="_blank"><img src="imgs/projects/vava-1.JPG" alt="Photography portfolio project" class="projects__img">
@@ -35,6 +48,7 @@
             </div>
           </a>
         </li>
+
 
       </ul>
     </div>

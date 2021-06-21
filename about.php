@@ -18,14 +18,16 @@
   <section class="about__me">
     <div class="container">
       <h2 class="about__me--container"><span class="about__me--text about__me--big">Hi!</span>
-      <span class="about__me--text about__me--main">I'm<br />Harry</span></h2>
-      <p class="paragraph">Working hard towards a degree in Software Engineering, I am determined for a successful career. 
-      I want to make a difference and help make this world a better place, and will work hard to gain the right skills 
-      to achieve this.</p>
-      <p class="paragraph">I enjoy designing and developing websites, this brings out my creative side and 
-      gives me the opportunity to problem solve. My recent projects can be seen <a href="projects.php" class="in-text-link">here.</a> 
-      I plan on developing many more, and if you want to get in touch then make sure to 
-      <a href="#footer" class="in-text-link">Contact</a> me!</p>
+      <span class="about__me--text about__me--main">I'm<br/>Harry</span></h2>
+      <p class="paragraph">I am a 20 year old student working towards a degree in Software Engineering. I like to think 
+      of myself as determined, respectful and genuine. I decided to use my creativity and skills into developing websites 
+      on the side of my education/job. I look forward to working and speaking with new clients!</p>
+      <p class="paragraph">Outside of the day to day, I plan to travel the world and experience new cultures, and participate 
+      more in snowboarding, sky-diving, rock climbing and other adrenaline fueled activities!</p>
+      <p class="paragraph">I enjoy designing and developing websites, although am looking for a designer to work with. 
+      I love being able to get people the websites they desire and pleasing them with the results! 
+      My recent projects can be seen <a href="projects.php" class="in-text-link">here.</a> I plan on developing many more, 
+      and if you want to get in touch then make sure to <a href="#footer" class="in-text-link">Contact</a> me!</p>
     </div>
   </section>
 
